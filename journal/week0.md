@@ -2,3 +2,12 @@
 
 ## Required Homework
 
+### Videos
+
+All required videos watched and practical elements followed along with.
+
+### Recreate diagrams, conceptual and logical
+
+Both diagrams recreated on Lucid Charts, screenshots and share links both below.
+
+![Conceptual diagram screenshot]()
