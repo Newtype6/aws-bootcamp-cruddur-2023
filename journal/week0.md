@@ -34,3 +34,7 @@ Screenshot below.
 I also really liked the idea of an account alias for the IAM users, so I've set that up too, for ease.  Plus all users are set up with MFA.
 
 ![AWS Alias screenshot](assets/AWS-alias.png)
+
+### Lastly!
+
+I've really enjoyed picking up a lot of new practical experience even though it's only Week 0.  Looking forward to the next set of tasks!
