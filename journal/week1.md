@@ -31,25 +31,25 @@ Since I am unable to install Docker on my local machine, I thought I would try t
 I was having trouble connecting to my instance via my SSH and so used EC2 Instance Connect instead.
 I used [this guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-container-image.html), clicking on the tab shown here:
 
-![Installing Docker](followed-this.png)
+![Installing Docker](assets/followed-this.png)
 
 Installation seemed easy enough and I was able to create and edit a Dockerfile, then run a command to check it was visible, getting back this:
 
-![Hello-world](docker-images-check.png)
+![Hello-world](assets/docker-images-check.png)
 
 On trying to view the web page I encountered this error:
 
-![time-out](Site-not-reached.png)
+![time-out](assets/Site-not-reached.png)
 
 I couldn't figure out why, thought I had struggled with the code below and so wondered if it was an apache issue.
 
-![code screenshot](struggled-here.png)
+![code screenshot](assets/struggled-here.png)
 
 I replaced "apt-get" with "yum", after some research suggesting that may be the issue.
 I tried with "sudo", having already tried without.
 None of these combinations worked and I was rewarded with the response "no package apache2 available" as shown below.
 
-![no package apache2](No-package.png)
+![no package apache2](assets/No-package.png)
 
 I wasn't able to solve this and so for now, I am chalking it up as a valuable learning experience none-the-less and will likely return to try and implement this at a later date.
 
