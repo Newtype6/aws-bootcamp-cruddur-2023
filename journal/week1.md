@@ -35,28 +35,27 @@ I used [this guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/
 ![Installing Docker](assets/followed-this.png)
 
 
-Installation seemed easy enough and I was able to create and edit a Dockerfile, then run a command to check it was visible, getting back this:
+- Installation seemed easy enough and I was able to create and edit a Dockerfile, then run a command to check it was visible, getting back this:
 
 
 ![Hello-world](assets/docker-images-check.png)
 
 
-
-On trying to view the web page I encountered this error:
+- On trying to view the web page I encountered this error:
 
 
 ![time-out](assets/Site-not-reached.png)
 
 
-I couldn't figure out why, though I had struggled with the code below and so wondered if it was an apache issue.
+- I couldn't figure out why, though I had struggled with the code below and so wondered if it was an apache issue.
 
 
 ![code screenshot](assets/struggled-here.png)
 
 
-I replaced "apt-get" with "yum", after some research suggesting that may be the issue.
-I tried with "sudo", having already tried without.
-None of these combinations worked and I was rewarded with the response "no package apache2 available" as shown below.
+- I replaced "apt-get" with "yum", after some research suggesting that may be the issue.
+- I tried with "sudo", having already tried without.
+- None of these combinations worked and I was rewarded with the response "no package apache2 available" as shown below.
 
 
 ![no package apache2](assets/No-package.png)
