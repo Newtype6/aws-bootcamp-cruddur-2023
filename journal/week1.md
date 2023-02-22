@@ -41,6 +41,7 @@ Installation seemed easy enough and I was able to create and edit a Dockerfile, 
 ![Hello-world](assets/docker-images-check.png)
 
 
+
 On trying to view the web page I encountered this error:
 
 
