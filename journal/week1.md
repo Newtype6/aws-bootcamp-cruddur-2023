@@ -18,7 +18,7 @@ I also learnt how to delete files in Github during this process and how to view 
 
 ### Limitations
 
-I researched how to install Docker on my local machine but unfortunately I am unable to install it, since I am running macOS 10.15.7 (Catalina) and Docker only supports from macOS 11 upwards.  I am unable to update my OS as I'm on a Mid 2012 MBP which is now receiving now further updates.  This also means I was unable to use Docker in VSCode.  VSCode itself works fine though - I used this in week 0 for the momento icon.
+I researched how to install Docker on my local machine but unfortunately I am unable to install it, since I am running macOS 10.15.7 (Catalina) and Docker only supports from macOS 11 upwards.  I am unable to update my OS as I'm on a Mid 2012 MBP which is now receiving no further updates.  This also means I was unable to use Docker in VSCode.  VSCode itself works fine though - I used this in week 0 for the momento icon.
 
 ### What I achieved
 
@@ -26,7 +26,7 @@ I looked up best practices of Dockerfiles [here](https://docs.docker.com/develop
 
 ### What I attempted
 
-Since I am unable to install Docker on my local machine, I thought I would try to install it on an EC2 instance instead and go from there, this also being a part of the challenges set.  I couldn't find any free tier AMIs pre-loaded with Docker and looked at two options.  A macOS AMI was my first thought but they are not free tier.  So I span up an Amazon Linux 2 instance and used this instead.
+Since I am unable to install Docker on my local machine, I thought I would try to install it on an EC2 instance instead and go from there, this also being a part of the challenges set.  I couldn't find any free tier AMIs pre-loaded with Docker and so looked at two options for instances I could install Docker on.  A macOS AMI was my first thought but they are not free tier.  So I span up an Amazon Linux 2 instance and used this instead.
 
 I was having trouble connecting to my instance via my SSH and so used EC2 Instance Connect instead.
 I used [this guide](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-container-image.html), clicking on the tab shown here:
