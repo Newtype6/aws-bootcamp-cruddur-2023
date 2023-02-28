@@ -4,7 +4,7 @@
         "ResourceARN": "*",
         "Priority": 9000,
         "FixedRate": 0.1,
-        "ReservoirSize": 6,
+        "ReservoirSize": 5,
         "ServiceName": "backend-flask",
         "ServiceType": "*",
         "Host": "*",
