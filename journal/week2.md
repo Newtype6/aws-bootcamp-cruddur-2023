@@ -21,8 +21,9 @@ I really wanted to be able to submit this homework in time, as I want to try and
 
 I will revisit the challenges in my own time, so that I can have a deeper play with the concepts introduced this week.
 The other thing I need to research further is tagging in Github - I understand it's something that can help Andrew and the TAs, so I'd like to try and understand how to implement this.  I've read a couple of articles and I plan to try and use this as soon as I am able.
- / edit: short moments later, I've got it!  Within Gitpod I deleted a tag created at an irrelevant point and created a new one named "week_2_complete"
- I learnt how to push it to my repo and will continue to add tags as I progress through the bootcamp.
+
+/ edit: short moments later, I've got it!  Within Gitpod I deleted a tag created at an irrelevant point and created a new one named "week_2_complete"
+I learnt how to push it to my repo and will continue to add tags as I progress through the bootcamp.
 
 ## Side note
 
