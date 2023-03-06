@@ -41,6 +41,15 @@ class HomeActivities:
         'likes': 0,
         'replies': []
       },
+      {
+        'uuid': '248959df-3079-4947-b847-9e0892d1bab4',
+        'handle':  'Garek',
+        'message': 'My dear doctor, I am just simple tailor',
+        'created_at': (now - timedelta(hours=1)).isoformat(),
+        'expires_at': (now + timedelta(hours=12)).isoformat(),
+        'likes': 0,
+        'replies': []
+      }
       ]
 
       if cognito_user_id != None:
@@ -52,8 +61,8 @@ class HomeActivities:
           'expires_at': (now + timedelta(hours=12)).isoformat(),
           'likes': 1042,
           'replies': []
-      }
-      results.insert(0,extra_crud)
+        }
+        results.insert(0,extra_crud)
 
-    span.set_attribute("app.result_length", len(results))
-    return results         
+      span.set_attribute("app.result_length", len(results))
+      return results         
