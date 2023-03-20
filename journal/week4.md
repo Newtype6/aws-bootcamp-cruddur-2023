@@ -12,3 +12,7 @@ I do have one strange issue I'm left with, as described below.
 When creating a user, all of the details are passed into the users table and posting cruds works fine, including the user_handle showing my name and not "Andrew Brown."  But the details don't persist in the database between sessions, even though the user is in the cognito pool and the lambda has done it's job.  The next time I run the db and give the command "select * from users;" my created users details don't show.  I have to create a new user when I've spun up a new workspace, for it to work.  Those details then appear in the table and the new user can post cruds.  Previously created users can still sign in to cruddur but can not post (NotNullViolation error) and don't show up in the db anymore.  I wonder if this is because we're working with the db in prod mode?  It doesn't seem right to me, so I will look into this further.
 
 However for now, it's something I can work around and I'm keen to push on and proceed with week 5.
+
+### EDIT
+
+The problem described above seems to have resolved and the most recent user I created has persisted in the database.  It's possible though that it's because there wasn't a lot of time between deleting the open workspace and starting a new one.  Further testing required.
