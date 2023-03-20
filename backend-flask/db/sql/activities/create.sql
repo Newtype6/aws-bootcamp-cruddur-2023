@@ -12,3 +12,5 @@ VALUES (
   %(message)s,
   %(expires_at)s
 ) RETURNING uuid;
+
+-- solved "NotNullViolation object has no attribute pgerror"
