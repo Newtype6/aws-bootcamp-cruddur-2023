@@ -5,7 +5,7 @@ import sys
 from flask import current_app as app
 
 class Db:
-  def _init_(self):
+  def __init__(self):
     self.init_pool()
 
   def template(self,name):
