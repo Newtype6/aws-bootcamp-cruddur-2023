@@ -62,5 +62,3 @@ class CreateActivity:
     return db.query_object_json(sql,{
       'uuid': uuid
     })
-  
-  # solved "NotNullViolation object has no attribute pgerror"
