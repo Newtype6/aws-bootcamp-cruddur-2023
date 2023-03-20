@@ -112,3 +112,5 @@ class Db:
     print ("pgcode:", err.pgcode, "\n")
 
 db = Db()
+
+# solved "NotNullViolation object has no attribute pgerror"
