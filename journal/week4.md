@@ -16,3 +16,8 @@ However for now, it's something I can work around and I'm keen to push on and pr
 ### EDIT
 
 The problem described above seems to have resolved and the most recent user I created has persisted in the database.  It's possible though that it's because there wasn't a lot of time between deleting the open workspace and starting a new one.  Further testing required.
+
+### FURTHER EDIT
+
+On creating a new user, data persists in both the "user" and the "activities" tables.  Posting still works and no errors are being thrown.  My issue was the DB connections.  Everything is running in PROD now and working totally fine.  I've also added "PYTHONUNBUFFERED: 1" to the backend enviroment in the docker-compose.yml file, so there is no print delay in the logs.
+
